@@ -1,0 +1,104 @@
+[
+  {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Age": 30,
+    "Addresses": [
+      {
+        "StreetAddress": "123 Main St",
+        "City": "City1",
+        "State": "State1",
+        "ZipCode": "12345"
+      },
+      {
+        "StreetAddress": "456 Elm St",
+        "City": "City2",
+        "State": "State2",
+        "ZipCode": "67890"
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "EmailAddress": "john.doe@example.com"
+      },
+      {
+        "EmailAddress": "johndoe@gmail.com"
+      }
+    ]
+  },
+  {
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "Age": 25,
+    "Addresses": [
+      {
+        "StreetAddress": "789 Oak St",
+        "City": "City3",
+        "State": "State3",
+        "ZipCode": "54321"
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "EmailAddress": "jane.smith@example.com"
+      },
+      {
+        "EmailAddress": "janesmith@yahoo.com"
+      },
+      {
+        "EmailAddress": "j.smith@outlook.com"
+      }
+    ]
+  },
+  {
+    "FirstName": "Su",
+    "LastName": "Chi",
+    "Age": 30,
+    "Addresses": [
+      {
+        "StreetAddress": "321 Main St",
+        "City": "City1",
+        "State": "State1",
+        "ZipCode": "12378"
+      },
+      {
+        "StreetAddress": "645 Elm St",
+        "City": "City2",
+        "State": "State2",
+        "ZipCode": "67812"
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "EmailAddress": "su.chi@example.com"
+      },
+      {
+        "EmailAddress": "suchi@gmail.com"
+      }
+    ]
+  },
+  {
+    "FirstName": "Jane",
+    "LastName": "Blond",
+    "Age": 25,
+    "Addresses": [
+      {
+        "StreetAddress": "987 Oak St",
+        "City": "City3",
+        "State": "State3",
+        "ZipCode": "98321"
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "EmailAddress": "jane.blond@example.com"
+      },
+      {
+        "EmailAddress": "janeblond@yahoo.com"
+      },
+      {
+        "EmailAddress": "j.blond@outlook.com"
+      }
+    ]
+  }
+]

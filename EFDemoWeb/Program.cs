@@ -1,10 +1,16 @@
+using EFDataAccessLibrary.DataAccess;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
+// Add services to the container.
+
+//Adding DbContext to our dependency injection system
 builder.Services.AddDbContext<PeopleContext>(options =>
 {
-    options.Use
-}):
-// Add services to the container.
+    //Configure it to use SqlServer (with the connection string)
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+});
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
